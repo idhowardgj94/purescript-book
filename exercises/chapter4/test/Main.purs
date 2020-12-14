@@ -40,7 +40,6 @@ main =
         test "[0, 1, 19, 20] has 2" do
           Assert.equal 2
             $ countEven [ 0, 1, 19, 20 ]
-    {-  Move this block comment starting point to enable more tests
     suite "Exercise Group - Maps, Infix Operators, and Filtering" do
       suite "Exercise - squared" do
         test "Do nothing with empty array" do
@@ -120,6 +119,7 @@ main =
           $ allTrue [ true, true, true ]
         assertFalse "some elements false"
           $ allTrue [ true, false, true ]
+    {-  Move this block comment starting point to enable more tests
       suite "Exercise - fibTailRec" do
         test "Verify 0" do
           Assert.equal 1
